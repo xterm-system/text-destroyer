@@ -1,5 +1,6 @@
 if [[ -n $1 ]]; then
 	echo Starting destroy...
+        '' > $1
 	times=0
 	fles=( [0]="ambarcinema" [1]="spaces" [2]="youtube" [3]="vk" )
 	echo -e "\e[1mClick Ctrl+Z to stop"
